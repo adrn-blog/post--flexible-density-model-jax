@@ -5,3 +5,7 @@ nbconvert
 numpy
 scipy
 matplotlib
+jax
+jaxopt
+blackjax
+jax_cosmo
