@@ -12,3 +12,4 @@ repos:
     rev: "0.5.0"
     hooks:
       - id: nbstripout
+        args: ["--extra-keys=metadata.kernelspec metadata.language_info metadata.toc metadata.notify_time metadata.varInspector cell.metadata.outputId cell.metadata.id"]
