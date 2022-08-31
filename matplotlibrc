@@ -27,8 +27,8 @@ ytick.direction: in
 xtick.top: True
 ytick.right: True
 
-figure.dpi: 300
-savefig.dpi: 300
+figure.dpi: 100
+savefig.dpi: 100
 
 # Color:
 axes.prop_cycle: cycler(color=['k', 'tab:blue', 'tab:orange', 'tab:green', 'tab:red', 'tab:purple', 'tab:brown', 'tab:pink', 'tab:gray', 'tab:olive', 'tab:cyan'])
