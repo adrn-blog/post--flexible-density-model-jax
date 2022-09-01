@@ -7,7 +7,10 @@ on:
   pull_request:
 
 jobs:
-  build:
-    uses: adrn-blog/template/.github/workflows/post.yml@main
-    with:
-      python-version: "3.10"
+  execute:
+    runs-on: ubuntu-latest
+    concurrency: post-${{ github.ref }}
+    steps:
+      - uses: adrn-blog/execute-post@main
+        with:
+          python-version: "3.10"
