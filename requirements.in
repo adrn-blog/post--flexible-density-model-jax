@@ -1,0 +1,13 @@
+notebook
+jupyter
+ipykernel
+nbconvert
+numpy
+scipy
+matplotlib
+jax
+jaxopt
+blackjax
+jax_cosmo
+pyia
+astropy
